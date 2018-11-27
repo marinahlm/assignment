@@ -3,6 +3,7 @@ import {StyleSheet, Text, View, TextInput, Alert, Button} from 'react-native';
 
 export default class App extends Component {
 
+//fatin
 constructor(){
   super();
   this.state={
@@ -14,6 +15,7 @@ constructor(){
   };
 }
 
+//fatin
 analyzeWord(){
     this.setState({array:this.state.word.split("")}, () => {
     this.setState({noChar: this.state.array.length})
@@ -34,6 +36,7 @@ analyzeWord(){
   });
 }
 
+//marina
 render() {
     return (
       <View style={styles.container}>
@@ -58,6 +61,7 @@ render() {
   }
 }
 
+//marina
 const styles = StyleSheet.create({
   container: {
     flex: 1,
